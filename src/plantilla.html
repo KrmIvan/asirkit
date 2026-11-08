@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIRkit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+{{CSS}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="tape">ASIRkit</span>
+    <p>Scripts comentados para Windows Server y Ubuntu Server, con los comandos para comprobarlos.</p>
+  </div>
+  <div class="proj" id="proj" aria-label="Resumen del proyecto"></div>
+  <div class="level"><span>Nivel</span><div class="seg" role="group" aria-label="Nivel de los scripts">
+      <button type="button" data-nivel="clase" aria-pressed="true">Clase</button>
+      <button type="button" data-nivel="pro" aria-pressed="false">Profesional</button></div></div>
+  <div class="actions">
+    <button class="btn" id="btnExport" type="button">Exportar proyecto</button>
+    <button class="btn" id="btnImport" type="button">Importar</button>
+    <button class="btn ghost" id="btnReset" type="button">Cargar ejemplo</button>
+  </div>
+</header>
+
+<div class="layout">
+  <nav class="side" id="nav" aria-label="Módulos"></nav>
+  <main id="main"></main>
+</div>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="box">
+    <h2 id="modalTitle" style="font:600 18px var(--f-display)"></h2>
+    <p id="modalText" style="margin:0;color:var(--muted);font-size:14px"></p>
+    <textarea id="modalArea" spellcheck="false"></textarea>
+    <div class="row-end">
+      <input type="file" id="modalFile" accept=".json,application/json" style="margin-right:auto;font-size:13px">
+      <button class="btn" id="modalCancel" type="button">Cerrar</button>
+      <button class="btn primary" id="modalOk" type="button"></button>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+{{JS}}
+</script>
+</body>
+</html>
