@@ -4,6 +4,8 @@
 
 Pensado para quienes estudian **ASIR / SMR** y para técnicos de sistemas que montan siempre lo mismo: Active Directory, DHCP, DNS, ficheros, web… sin errores de escritura y con todo coherente entre sí.
 
+**▶ Pruébala: https://krmivan.github.io/asirkit/**
+
 > Funciona entera en el navegador: es un único `index.html`, sin servidor, sin instalar nada y sin enviar datos a ningún sitio.
 
 ![Catálogo de módulos y niveles](docs/capturas/catalogo.png)
@@ -52,7 +54,7 @@ Indicas cuántos equipos hay en cada departamento o zona y te calcula la subred 
 
 ## Cómo usarla
 
-1. Abre `index.html` en el navegador (o la versión publicada en GitHub Pages).
+1. Abre la [demo](https://krmivan.github.io/asirkit/) o descarga el repositorio y abre `index.html` en el navegador.
 2. Elige el nivel y los módulos.
 3. Rellena el plan de red y revisa que no haya avisos.
 4. Copia cada script y ejecútalo en el servidor, en el orden del menú.
