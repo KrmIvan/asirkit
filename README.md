@@ -93,10 +93,6 @@ python3 build.py   # genera index.html
 
 Próximos servidores y servicios en preparación. Las ideas y sugerencias son bienvenidas en *Issues*.
 
-## Autor
-
-**Iván Juliana**, estudiante de Administración de Sistemas Informáticos en Red (ASIR). [LinkedIn](https://www.linkedin.com/in/ivanjulval)
-
 ## Licencia
 
 [MIT](LICENSE)
